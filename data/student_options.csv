@@ -1,0 +1,33 @@
+operations,type,index,key feature,dependencies,start from scratch
+Student|notifications(view),optional,1,Y,,N
+Student|VIA homepage(responsive design|user menu|app center bar|FABs|text encode),optional,2,Y,,N
+Student|VIA|In progress page(GSA|GPA|text encode),optional,3,Y,,N
+Student|VIA|In progress page|GPA(work on assignment),optional,4,Y,,N
+"Student|VIA|In progress page|View assessment(coordinator, peer, delegator)",base,31,Y,3,N
+Student|VIA|Timeline page(group activity|my work|calendar bar|text encode),optional,5,Y,,N
+Student|VIA|Showcase page(list|view|edit|remove|text encode),optional,6,Y,,N
+Student|Showcase|page operations(create|edit|move|remove|text encode),optional,7,Y,6,N
+Student|Showcase|layout operations(create column|remove),optional,8,Y,6,N
+Student|Showcase|Component|Text(paste),optional,9,Y,6,N
+Student|Showcase|Component|Image(upload image|create my work),optional,10,Y,6,N
+Student|Showcase|Component|Image Gallery(add image|create my work),optional,11,Y,6,N
+Student|Showcase|Component|Attachments(upload attachment|create my work),optional,12,Y,6,N
+Student|Showcase|Component|My info(user info),optional,13,Y,6,N
+Student|Showcase|Component|Video(add url|create my work),optional,27,Y,6,N
+Student|Showcase|Component|Gallery|Timeline(add reference|toggle components),optional,28,Y,6,N
+Student|Showcase|Component|Gallery|Gallery(add reference|toggle components),optional,29,Y,6,N
+Student|Showcase|Theme(switch theme|skin|customization),optional,14,Y,6,N
+Student|Showcase|Edit description(description|cover|preview|text encode),optional,15,Y,6,N
+Student|Showcase|Share(private|public|facebook|twitter|email),optional,16,Y,6,N
+Student|Profile setting|avatar(upload|edit),optional,17,Y,,N
+Student|Profile setting|profile(edit),optional,18,Y,,N
+Student|Profile setting|change password(edit),optional,19,Y,,N
+Student|My work|Edit Description(description|cover|preview|text encode),optional,20,Y,5,N
+Student|My work|Layout operations(create column|remove),optional,21,Y,5,N
+Student|My work|Component|Text(paste),optional,22,Y,5,N
+Student|My work|Component|Image(upload image),optional,23,Y,5,N
+Student|My work|Component|Image Gallery(upload image),optional,24,Y,5,N
+Student|My work|Component|Attachments(upload attachment),optional,25,Y,5,N
+Student|My work|Component|My info(user info),optional,26,Y,5,N
+Student|My work|Component|Video(add url),optional,30,Y,5,N
+Student|TOS agreement on first login,base,32,Y,,N

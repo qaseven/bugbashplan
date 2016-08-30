@@ -1,0 +1,5 @@
+operations,type,index,key feature,dependencies,start from scratch
+Support admin|Organization|list(create| validation name less than 100),base,1,Y,,Y
+Support admin|Organization|details(scorecard|feature toggling),optional,2,Y,,N
+Support admin|User help|search(list),optional,3,Y,,N
+Support admin|User help|details(sudo|reset password|suspend),optional,4,Y,3,N

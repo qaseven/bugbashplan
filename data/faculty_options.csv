@@ -1,0 +1,53 @@
+operations,type,index,key feature,dependencies,start from scratch
+Faculty|notifications(view),optional,1,Y,,N
+Faculty|Template|template folder(create|edit|remove|text encode),optional,2,Y,,N
+Faculty|Template|template(create|edit|copy),base,3,Y,2,N
+Faculty|VIA|Template|transfer(transfer|accept|reject),optional,4,N,3,N
+Faculty|Template|Workflow|Supervised assessment workflow(assessing),optional,5,Y,3,N
+Faculty|Template|Workflow|Supervised peer assessment workflow(assessing|mark as done),optional,6,Y,3,N
+Faculty|Template|Workflow|Supervised coordinators assessment workflow(assessing|mark as done),optional,7,Y,3,N
+Faculty|Template|Workflow|Form workflow(assessing|assignment report),optional,8,Y,3,N
+Faculty|Template|Page operations(create|edit|move|remove|text encode|15pages max),optional,9,Y,3,N
+Faculty|Template|Layout operations(create column|remove),optional,10,Y,3,N
+Faculty|Template|Component(insert|score enhancement|statement mapping|move|remove),base,11,Y,3,N
+Faculty|Template|Component|resource title(input|text encode),optional,12,Y,11,N
+Faculty|Template|Component|resource text(input|toolbar|insert image|insert link|paste|text encode),optional,13,Y,11,N
+Faculty|Template|Component|multimedia(image|youtube),optional,14,Y,11,N
+Faculty|Template|Component|resource attachment(local|previous|dropbox|google drive),optional,15,Y,11,N
+Faculty|Template|Component|text area(input|toolbar|insert image|insert link|paste|text encode),optional,16,Y,11,N
+Faculty|Template|Component|interactive attachment(local|previous|dropbox|google drive),optional,17,Y,11,N
+Faculty|Template|Component|rich(all other components without details),optional,18,Y,11,N
+Faculty|Template|Component|youtube(input|play),optional,19,Y,11,N
+Faculty|Template|Component|questions radio(score|text encode),optional,20,Y,11,N
+Faculty|Template|Component|questions checkbox(score|text encode),optional,21,Y,11,N
+Faculty|Template|Component|questions dropdown(score|text encode),optional,22,Y,11,N
+Faculty|Template|Component|portfolio reference(select|filter|remove|search),optional,23,Y,11,N
+Faculty|Template|Component|gallery(select|filter|remove|search),optional,24,Y,11,N
+Faculty|Template|Component|timeline(select|filter|remove|search),optional,25,Y,11,N
+Faculty|Template|Component|my Info(filter|sync|not sync),optional,26,Y,11,N
+Faculty|Template|Component|scoring(primary score|manual|auto),optional,27,Y,11,N
+Faculty|Template|Component|rubric(manual|auto),optional,28,Y,11,N
+Faculty|Template|assessment Panel(toggle|insert component),optional,29,Y,11,N
+Faculty|Template|Assessment Panel|Component|rubric(manual|auto),optional,30,Y,11,N
+Faculty|Template|Assessment Panel|Component|scoring(primary score|manual|auto),optional,31,Y,11,N
+Faculty|Template|Assessment Panel|Component|feedback(input|text encode),optional,32,Y,11,N
+Faculty|Template|preview(choose status|choose theme),base,33,Y,11,N
+Faculty|Template|convert to showcase(create showcase),base,34,Y,11,N
+Faculty|Rubric|rubric(view|archive|copy|text encode),optional,35,Y,,N
+Faculty|Rubric|rubric create(create|save as draft|text encode| validation element less than 500),optional,36,Y,35,N
+Faculty|Rubric|rubric edit(edit|text encode),optional,37,Y,35,N
+Faculty|Rubric|rubric type plain(criteria statement mapping),optional,38,Y,36|37,N
+Faculty|Rubric|rubric type score(criteria statement mapping|whole rubric statement mapping),optional,39,Y,36|37,N
+Faculty|Rubric|rubric|transfer(transfer|accept|reject)(VIA style),optional,40,Y,35,N
+Faculty|VIA homepage(responsive design|user menu|app center bar|FABs|text encode),base,41,Y,,N
+Faculty|VIA|In progress page(GSA|GPA|text encode),base,42,Y,,N
+Faculty|VIA|Timeline page(group activity|my work|calendar bar|text encode),base,43,Y,,N
+Faculty|VIA|Showcase page(list|view|edit|remove|text encode),base,44,Y,,N
+Faculty|Group page|Activity page(list|details|text encode),base,45,Y,42,N
+Faculty|Group page|Activity page|create Activity(coordinator/delegator/peer),base,50,Y,45,N
+Faculty|Group page|Create activity(template|role|time|is required|sync score|text encode),base,46,Y,45,N
+Faculty|Group page|Group activity page(execution table|details|text encode),base,47,Y,45,N
+Faculty|Group page|Group activity page|assessment(pushback|submit|undo|save|comment|text encode),base,48,Y,45,N
+Faculty|Group page|Members(create role),base,49,Y,42,N
+Faculty|LTI|generate independent LTI link for each group activity,optional,51,Y,46,N
+Faculty|LTI|view corresponding group activity and details page when launch through LTI link.,optional,52,Y,51,N

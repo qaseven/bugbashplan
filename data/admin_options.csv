@@ -1,0 +1,41 @@
+operations,type,index,key feature,dependencies,start from scratch
+Admin|Reports|Rubric report|Select rubric(more selections|search),optional,1,Y,,N
+Admin|Reports|Rubric report|Save queries(save|import),optional,2,Y,1,N
+Admin|Reports|Rubric report|Filter(add|edit|copy|delete of query),optional,3,Y,1,N
+Admin|Reports|Rubric report|Reports operations(group by|element and level),optional,4,Y,3,N
+Admin|Reports|Rubric report|Reports graph operations(more detail when click on chart),optional,32,Y,3,N
+Admin|Reports|Standard report|Standard set(more selections|advanced search),optional,17,Y,,N
+Admin|Reports|Standard report|Save queries(save|import),optional,18,Y,17,N
+Admin|Reports|Standard report|Reports graph operations(group by|filter by|detail info),optional,24,Y,17,N
+Admin|Reports|Standard report|Reports operations(group by|filter by|detail info),optional,33,Y,17,N
+Admin|Reports|Standard report|Filter(add|edit|copy|delete of query),optional,25,Y,17,N
+Admin|Hierarchy|Tree node operations(create|rename|search|text encode| validation less than 100),optional,5,Y,,N
+Admin|Hierarchy|Template(create|copy)(VIA style),optional,6,Y,5,N
+Admin|Hierarchy|Template create group homepage,optional,7,Y,6,N
+Admin|Hierarchy|Template|create activities for multiple groups,optional,40,Y,6,N
+Admin|Hierarchy|Statement(create set|create statement),optional,8,Y,5,N
+Admin|Hierarchy|Group template(create|edit),optional,9,Y,5,N
+Admin|Hierarchy|Group template|Group|Template(insert|search),optional,10,Y,9,N
+Admin|Hierarchy|Group template|Group|Basic operations(create|import|sample file|edit),optional,11,Y,9,N
+Admin|Hierarchy|Group template|Group|Membership(add|enroll|remove),optional,26,Y,9,N
+Admin|Hierarchy|Rubric(view|archive|copy),optional,21,Y,5,N
+Admin|Hierarchy|Rubric create(create|save as draft|validation element less than 500),optional,22,Y,21,N
+Admin|Hierarchy|Rubric type plain(criteria statement mapping),optional,23,Y,22,N
+Admin|Hierarchy|Rubric type score(criteria statement mapping|whole rubric statement mapping),optional,27,Y,22,N
+Admin|Hierarchy|Rubric edit(edit) (VIA style),optional,28,Y,21,N
+Admin|Hierarchy|Rubric copy and archived  ,optional,39,Y,21,N
+Admin|Hierarchy|Admin(insert|remove),optional,29,Y,5,N
+Admin|Import|Users(import|sample file|text encode|validation user score positive| userId can be the same with different org|with defined Ethnicity),optional,12,Y,,N
+Admin|Import|Hierarchy(import|sample file|text encode),optional,13,Y,12,N
+Admin|Import|Group templates(import|sample file|text encode),optional,14,Y,13,N
+Admin|Import|Groups(import|sample file|text encode),optional,15,Y,14,N
+Admin|Import|Membership(import|sample file|text encode),optional,16,Y,15,N
+Admin|Settings|Term(create|edit|delete),optional,19,Y,,N
+Admin|Settings|LTI(config),optional,20,Y,,N
+Admin|Settings|Template theme(create|edit|preview),optional,30,Y,,N
+Admin|Settings|SSO(config),optional,31,Y,,N
+Admin|API|Users(import|text encode),optional,34,Y,,N
+Admin|API|Hierarchy(import|text encode),optional,35,Y,34,N
+Admin|API|Group templates(import|text encode),optional,36,Y,35,N
+Admin|API|Groups(import|text encode),optional,37,Y,36,N
+Admin|API|Membership(import|text encode),optional,38,Y,37,N
