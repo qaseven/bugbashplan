@@ -4,6 +4,6 @@ require 'team_pie'
 
 dir_path = File.expand_path('./data/*.csv', File.dirname(__FILE__))
 
-member_list = ['hang', 'jing']
+member_list = ['grace', 'ni','qlei']
 
 TeamPie::TeamPieCore.run(dir_path, member_list)
